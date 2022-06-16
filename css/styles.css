@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-size:16px;
 }
 
   /*======menú======*/
@@ -145,7 +146,7 @@ section{
 footer{
   background-color:#202731;
   color:#fff;
-  padding:3em;
+  height: 300px;
   margin-top:auto;
 }
 
@@ -156,6 +157,7 @@ footer{
 .grid-footer{
   display:grid;
   grid-template-columns: 1fr 1fr;
+  margin: 2em auto;
 }
 .grid-footer img{
   display: block;
@@ -200,6 +202,9 @@ footer{
     .logo{
       font-size:25px;
       padding-left: 35px;
+    }
+    footer{
+      height: 120px;
     }
   }
 
