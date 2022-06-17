@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-size:16px;
+    font-size: 14px;
 }
 
   /*======menú======*/
@@ -157,7 +157,7 @@ footer{
 .grid-footer{
   display:grid;
   grid-template-columns: 1fr 1fr;
-  margin: 2em auto;
+  margin: 3em auto;
 }
 .grid-footer img{
   display: block;
